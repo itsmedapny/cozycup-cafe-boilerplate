@@ -94,21 +94,27 @@ nav a:hover {
 }
 
 .hero {
-    text-align: center;
-    padding: 150px 0;
-    background-image: url('hero-bg.jpg');
+    text-align: left;
+    padding: 150px 200px;
+    background-image: url('bg.jpg');
     background-size: cover;
     color: white;
 }
 
 .hero h1 {
-    font-size: 36px;
+    font-size: 75px;
     margin-bottom: 20px;
+}
+.hero h2 {
+    font-size: 50px;
+    margin-bottom: 10px;
 }
 
 .hero p {
-    font-size: 18px;
-    margin-bottom: 40px;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .cta-button {
@@ -117,12 +123,107 @@ nav a:hover {
     background-color: #4c3c32;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 25px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cta-button i {
+    margin-left: 10px; /* Adjust the margin to your preference */
 }
 
 .cta-button:hover {
-    background-color: #7e685b;
+    background-color: #3a312c;
 }
+
+
+.best {
+    padding: 100px 0;
+    text-align: center;
+    background-color: #ede4d6;
+}
+
+.best h2 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+
+.best p {
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 50px;
+}
+
+.best-content {
+    display: grid;
+    grid-template-columns: 450px 450px 450px 450px;
+    gap: 5rem; /* Adjust this value to control the spacing between columns */
+    justify-content: center; /* Center the grid horizontally */
+    align-items: center; /* Center the grid vertically */
+    border-radius: 1.5rem;
+    margin-left: 200px;
+    column-gap: 1px;
+}
+
+.best-box {
+    background: #fff8f7;
+    padding: 20px;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* You can adjust the width to fit your design */
+    width: 60%; /* Set to 100% to ensure it fits within the grid column */
+    position: relative;
+}
+
+.best-box p {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.best-box .fa-heart {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 8px;
+    background: #ede4d6;
+    color: var(--second-color);
+    border-radius: 50%;
+}
+
+.best-box img {
+    margin-top: 1.5rem;
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.best-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.best-info span {
+    font-size: 22px;
+}
+
+.best-info .fa-cart-shopping {
+    padding: 8px;
+    background-color: #ede4d6;
+    color: #4c3c32;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.best-info .fa-cart-shopping:hover {
+    background-color: whitesmoke;
+    transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
 
 .menu {
     padding: 100px 0;
