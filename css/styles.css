@@ -7,7 +7,6 @@ body, h1, h2, h3, p, ul, li {
 
 body {
     font-family: 'Playfair Display', serif, 'Poppins', sans-serif;
-    background-color: #fde353;
     color: #381a09;
 }
 
@@ -38,7 +37,7 @@ nav {
     align-items: center;
     padding: 17px 20px;
     border-radius: 2rem;
-    background-color: #4c3c32; /* Kulay ng navigation */
+    background-color: #4c3c32; 
 }
 
 ul {
@@ -54,7 +53,7 @@ li {
 
 a {
     text-decoration: none;
-    color: #fff; /* Kulay ng text */
+    color: #fff; 
 }
 
 .nav-icon {
@@ -96,7 +95,6 @@ nav a:hover {
 .hero {
     text-align: left;
     padding: 150px 200px;
-    background-image: url('bg.jpg');
     background-size: cover;
     color: white;
 }
