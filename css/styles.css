@@ -1,24 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;1,500&display=swap');
-<<<<<<< HEAD
-=======
 
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:ital,wght@0,400;1,500&display=swap');
 body, h1, h2, h3, p, ul, li {
     margin: 0;
     padding: 0;
-    color: #005634;
-    
 }
-
 
 body {
     font-family: 'Playfair Display', serif, 'Poppins', sans-serif;
-<<<<<<< HEAD
+    background-color: #fde353;
     color: #381a09;
-=======
-    background-color: #f5f5f5;
-    color: #4b2e24;
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
 }
 
 header {
@@ -31,11 +21,8 @@ header {
     width: 100%;
     z-index: 100;
     font-size: 14px;
-<<<<<<< HEAD
     font-family:  'Poppins', sans-serif;
     
-=======
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
 }
 
 .logo {
@@ -51,11 +38,7 @@ nav {
     align-items: center;
     padding: 17px 20px;
     border-radius: 2rem;
-<<<<<<< HEAD
-    background-color: #4c3c32; 
-=======
-    background-color: #1c1a19; 
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
+    background-color: #4c3c32; /* Kulay ng navigation */
 }
 
 ul {
@@ -71,11 +54,7 @@ li {
 
 a {
     text-decoration: none;
-<<<<<<< HEAD
-    color: #fff; 
-=======
     color: #fff; /* Kulay ng text */
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
 }
 
 .nav-icon {
@@ -87,20 +66,12 @@ a {
     font-size: 20px;
 }
 .logo img {
-<<<<<<< HEAD
     max-width: 30px;
-=======
-    max-width: 125px;
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
     color: white;
 }
 
 .Logo1 img {
-<<<<<<< HEAD
     max-width: 100px;
-=======
-    max-width: 250px;
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
@@ -125,10 +96,7 @@ nav a:hover {
 .hero {
     text-align: left;
     padding: 150px 200px;
-<<<<<<< HEAD
-=======
     background-image: url('bg.jpg');
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
     background-size: cover;
     color: white;
 }
@@ -152,15 +120,14 @@ nav a:hover {
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #00704a;
-    color: #f5f5f5;
+    background-color: #4c3c32;
+    color: white;
     text-decoration: none;
     border-radius: 25px;
     font-family: 'Poppins', sans-serif;
 }
 
 .cta-button i {
-<<<<<<< HEAD
     margin-left: 10px; /* Adjust the margin to your preference */
 }
 
@@ -185,210 +152,6 @@ nav a:hover {
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 50px;
-=======
-    margin-left: 10px;
-}
-
-.cta-button:hover {
-    background-color: #005634;
-}
-menu {
-    padding: 100px 0;
-    text-align: center;
-    background-color: #f5f5f5;
-}
-
-.menu h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-
-.menu p {
-    color: #4b2e24;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 50px;
-}
-
-.product-content {
-    display: grid;
-    grid-template-columns: 550px 550px 550px;
-    gap: 5rem; /* Adjust this value to control the spacing between columns */
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    border-radius: 1.5rem;
-    margin-left: 200px;
-    column-gap: 1px;
-}
-
-.product-box {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* You can adjust the width to fit your design */
-    width: 60%; /* Set to 100% to ensure it fits within the grid column */
-    position: relative;
-}
-
-.product-box p {
-    text-align: justify;
-    font-size: 15px;
-}
-
-.product-box .fa-heart {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    padding: 8px;
-    background: #ede4d6;
-    color: var(--second-color);
-    border-radius: 50%;
-}
-
-.product-box img {
-    margin-top: 1.5rem;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.product-info {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-}
-
-.product-info span {
-    font-size: 22px;
-}
-
-.product-info .fa-cart-shopping {
-    padding: 8px;
-    background-color: #ede4d6;
-    color: #4c3c32;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.product-info .fa-cart-shopping:hover {
-    background-color: whitesmoke;
-    transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.team {
-    padding: 100px 0;
-    text-align: center;
-    background-color: #f5f5f5;
-}
-
-.team h2 {
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-
-
-.team p {
-    color: #4b2e24;
-    font-size: 18px;
-    font-family: 'Poppins', sans-serif;
-    margin-bottom: 50px;
-}
-
-.team-member {
-    display: grid;
-    grid-template-columns: 550px 550px 550px;
-    gap: 5rem; /* Adjust this value to control the spacing between columns */
-    justify-content: center; /* Center the grid horizontally */
-    align-items: center; /* Center the grid vertically */
-    border-radius: 1.5rem;
-    margin-left: 200px;
-    column-gap: 1px;
-}
-
-.team-info {
-    background: #ffffff;
-    padding: 20px;
-    border-radius: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    /* You can adjust the width to fit your design */
-    width: 60%; /* Set to 100% to ensure it fits within the grid column */
-    position: relative;
-}
-
-.team-info p {
-    text-align: justify;
-    font-size: 15px;
-}
-
-.team-info img {
-    margin-top: 1.5rem;
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 0 auto;
-}
-
-.about {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ede4d6;
-}
-
-.main-img img {
-    max-width: 100%;
-    width: 560px;
-    height: auto;
-    padding-left: 250px;
-    padding-top: 60px;
-}
-
-.abouts h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: justify;
-    align-items: flex-start;
-}
-
-.abouts p {
-    font-size: 18px;
-    max-width: 800px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    padding-right: 190px;
-    padding-bottom: 20px;
-}
-
-.team-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #00704a;
-    color: #f5f5f5;
-    text-decoration: none;
-    border-radius: 25px;
-    font-family: 'Poppins', sans-serif;
-    margin-left: 610px;
- 
-}
-
-.team-button i {
-    margin-left: 10px; /* Adjust the margin to your preference */
-}
-
-.team-button:hover {
-    background-color: #005634;
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
 }
 
 .best-content {
@@ -465,12 +228,7 @@ menu {
 .menu {
     padding: 100px 0;
     text-align: center;
-<<<<<<< HEAD
     background-color: #ede4d6;
-=======
-    background-color: #f5f5f5;
-    color: #4b2e24;
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
 }
 
 .menu h2 {
@@ -555,39 +313,6 @@ menu {
     transition: 0.4s all cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-.about {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #ede4d6;
-}
-
-.main-img img {
-    max-width: 100%;
-    width: 560px;
-    height: auto;
-    padding-left: 250px;
-    padding-top: 60px;
-}
-
-.abouts h2 {
-    font-size: 30px;
-    margin-bottom: 20px;
-    text-align: justify;
-    align-items: flex-start;
-}
-
-.abouts p {
-    font-size: 18px;
-    max-width: 800px;
-    font-family: 'Poppins', sans-serif;
-    text-align: justify;
-    padding-right: 190px;
-    padding-bottom: 20px;
-}
-
 .team {
     padding: 100px 0;
     text-align: center;
@@ -642,6 +367,39 @@ menu {
     object-fit: cover;
 }
 
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ede4d6;
+}
+
+.main-img img {
+    max-width: 100%;
+    width: 560px;
+    height: auto;
+    padding-left: 250px;
+    padding-top: 60px;
+}
+
+.abouts h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: justify;
+    align-items: flex-start;
+}
+
+.abouts p {
+    font-size: 18px;
+    max-width: 800px;
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+    padding-right: 190px;
+    padding-bottom: 20px;
+}
+
 .team-button {
     display: inline-block;
     padding: 10px 20px;
@@ -683,7 +441,6 @@ menu {
 }
 
 .contact p {
-    color: #4b2e24;
     font-size: 18px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px; /* Adjusted the margin for spacing */
@@ -776,14 +533,13 @@ button:hover {
 
 footer {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-    color: 4b2e24;
+    background-color: #4c3c32;
+    color: white;
     text-align: center;
     padding: 20px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
-<<<<<<< HEAD
 }
 
 .quick-links a {
@@ -801,32 +557,6 @@ footer {
 .social-media a {
     font-size: 20px;
     color: #ffd700;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
-}
-
-.social-media a:hover {
-    color: #cca700;
-=======
->>>>>>> f3b45e38c9cbe67ac23a3de87197b896f9f91642
-}
-
-.quick-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-}
-
-.quick-links a:hover {
-    color: #5a3a29;
-}
-
-.social-media a {
-    font-size: 20px;
-    color: #5a3a29;
     margin: 0 10px;
     text-decoration: none;
     transition: color 0.3s;
